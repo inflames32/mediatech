@@ -1,0 +1,14 @@
+.homepage {
+}
+
+.body {
+    height: auto;
+    background-color: rgb(165, 161, 161);
+    &-search {
+        display: flex;
+        &-input {
+            width: 80%;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "albums": [
+        {
+            "id": 1,
+            "jaquette": "/images/firstalbum.jpg",
+            "title": "Pourquoi ça irait mieux?",
+            "infos": "Enregistré et mixé à Treillères au Chipolata Framboise Studio par Fabien 'Aimé Jacquet' Lefloch.<a>www.chipolata-framboise.com</a>",
+            "tracks": 12
+        },
+        {
+            "id": 2,
+            "jaquette": "/images/secondalbum.jpg",
+            "title": "Pourquoi ça irait mieux?",
+            "infos": "Enregistré et mixé à Treillères au Chipolata Framboise Studio par Fabien 'Aimé Jacquet' Lefloch.<a>www.chipolata-framboise.com</a>",
+            "tracks": 12
+        },
+        {
+            "id": 3,
+            "jaquette": "/images/R-2718462-1297931665.jpeg",
+            "title": "Des deux, l'une est l'autre?",
+            "infos": "",
+            "tracks": 12
+        },
+        {
+            "id": 4,
+            "jaquette": "/images/R-3481165-1332091174.jpeg",
+            "title": "Acid Mist Tomorrow",
+            "infos": "",
+            "tracks": 12
+        },
+        {
+            "id": 5,
+            "jaquette": "/images/R-8507489-1463001370-9556.jpeg",
+            "title": "Pourquoi ça irait mieux?",
+            "infos": "",
+            "tracks": 12
+        },
+        {
+            "id": 5,
+            "jaquette": "/images/R-11823851-1523010094-8687.jpeg",
+            "title": "Pourquoi ça irait mieux?",
+            "infos": "",
+            "tracks": 12
+        },
+        {
+            "id": 5,
+            "jaquette": "/images/R-14458131-1574928369-4357.jpeg",
+            "title": "Pourquoi ça irait mieux?",
+            "infos": "",
+            "tracks": 12
+        }
+    ],
+    "games": [
+        {
+            "id": "1",
+            "jaquette": "/images/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+            "name": "Legend of Zelda A Link To the Past",
+            "sortie": "1992",
+            "hardware": "snes"
+        }
+    ]
+}

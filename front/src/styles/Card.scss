@@ -1,0 +1,9 @@
+.card {
+    max-width: 30%;
+    margin: 1em;
+}
+
+.card > img {
+    max-width: 100%;
+    box-sizing: border-box;
+}
