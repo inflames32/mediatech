@@ -1,0 +1,14 @@
+[
+    {
+        "jaquette": "/images/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+        "name": "Legend of Zelda A Link To the Past",
+        "launch": "1992",
+        "hardware": "snes"
+    },
+    {
+        "jaquette": "/images/secret-of-mana-sn-e13909.jpg",
+        "name": "Secret of Mana",
+        "launch": "1992",
+        "hardware": "snes"
+    }
+]

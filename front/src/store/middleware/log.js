@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-import { } from '../actions';
+import { } from '../../actions';
 
 const log = (store) => (next) => (action) => {
     next(action);

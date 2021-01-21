@@ -1,22 +1,22 @@
 import React from 'react';
-import { button } from 'bulma';
-import data from '../assets/data.json';
+//import { button } from 'bulma';
+import albums from '../assets/albums.json';
 import '../styles/Album.scss';
 
 const Album = () => {
-    const datas = data.albums;
     return (
         <div className="album">
             <ul className="album-list">
                 {
-                    datas.map((data) => (
-                        <li key={data.id} className="album-list-item">
-                            <img src={data.jaquette} className="album-list-item-img" alt={data.jaquette} />
+                    albums.map((album) => (
+                        <li className="album-list-item">
+                            <img src={album.jaquette} className="album-list-item-img" alt={album.jaquette} />
                             <div className="album-list-item-info">
-                                <div key={data.id}>
-                                    <div>{data.title}</div>
-                                    <div>{data.infos}</div>
-                                    <div>Titres: {data.tracks}</div>
+                                <div>
+                                    <div>{album.band}</div>
+                                    <div>{album.title}</div>
+                                    {/* <div>{album.infos}</div> */}
+                                    <div>Titres: {album.tracks}</div>
                                 </div>
                             </div>
                         </li>

@@ -3,8 +3,8 @@ import { createStore, compose, applyMiddleware } from 'redux';
 
 // == Import : local
 // import rootReducer from './reducers';
-import rootReducer from '../reducers';
-import log from '../middleware/log';
+import rootReducer from './reducers';
+import log from './middleware/log';
 
 // == Enhancers
 // const composeEnhancers = process.env.REACT_APP_DEVTOOL;

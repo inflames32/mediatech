@@ -6,25 +6,35 @@ import Body from './Body';
 import Footer from './Footer';
 import Album from './Album';
 import Game from './Game';
+import ModalAlbum from './ModalAlbum';
 
 import '../styles/Homepage.scss';
 
-const Homepage = () => {
+const Homepage = (openModal,) => {
+
+    const BtnAddAlbum = () => {
+        console.log("j'ouvre la modale pour créer un album");
+        <ModalAlbum />
+    }
     return (
         <div className="homepage">
             <Header />
+            <ModalAlbum />
             <div className="body">
                 <div className="body-search">
-                    <input class="body-search-input" type="text" placeholder="Text input" />
-                    <button className="button is-primary is-large">OK!</button></div>
+                    <input className="body-search-input" type="text" placeholder="Text input" />
+                    <button className="button is-primary is-large">OK!</button>
+                    <button className="button is-primary is-large" onClick={BtnAddAlbum}>+</button>
+                </div>
                 <Album />
                 <Game />
             </div>
             <Footer />
-        </div>
+        </div >
     );
 }
 const mapState = (state) => ({
+
 });
 
 const mapDispatch = (dispatch) => ({
